@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f4f6f9;
+}
+
+.judul {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: white;
+}
+
+.btn-danger {
+    background: #dc3545;
+    color: white;
+}
+
+.btn-warning {
+    background: #ffc107;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #f0f0f0;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination .btn {
+    margin: 5px;
+}

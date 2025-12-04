@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 class="judul">📚 Data Mahasiswa</h2>
+
+<div class="card form-card">
+    <h3>Tambah Data</h3>
+    <input id="nama" placeholder="Nama">
+    <input id="nim" placeholder="NIM">
+    <input id="jurusan" placeholder="Jurusan">
+    <input id="alamat" placeholder="Alamat">
+    <button class="btn btn-primary" onclick="simpanData()">Simpan</button>
+</div>
+
+<div class="card search-card">
+    <input id="cari" placeholder="Cari mahasiswa..." onkeyup="cariData()">
+</div>
+
+<div class="card">
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Jurusan</th>
+                <th>Alamat</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody id="tabelData"></tbody>
+    </table>
+</div>
+
+<div class="pagination">
+    <button class="btn" onclick="prevPage()">Prev</button>
+    <span id="halaman"></span>
+    <button class="btn" onclick="nextPage()">Next</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
